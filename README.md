@@ -27,9 +27,12 @@ STATUS-- it will display the status of the code using (git status) command
 <br>
 there are four types of status in git when we use git status command
 <br>
-1. Untracked-- it means when we add new file and git doesnot have track of it ,it shows U
+1. Untracked-- it means when we add new file and even we have made changes in it it doesn't show M and git doesnot have track of it ,it shows U
 2. Modified-- it means we have done some changes to the existing file which is present in the github ,it shows M
 3. Unmodified-- it means the file is unchanged
 4. Staged-- when we change anyrhing in the file or add new file and when we add these changes so it status is staged means they are ready to commit
 THis is testing new line
+<br>
+ADD-- it is used save changes that we made to our files in the folder and make them staged so that they are ready to commit or we can say that (adds new or changed files in your working directory to the Git staging area) using (git add filename) or if we want to add all the files to the staging area we can use (git add .) and when we add new file to the folder and then we add that file to staging area so it will show A
 
+Commit-- it is used to save the changes to your local computer it doesnot affect github repository we have to push it then it will apply those changes to the github this will save the changes that we had made in our pc basically it will take us ahead of one commit,  using (git commit -m "message about what change")
