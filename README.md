@@ -16,4 +16,6 @@ git config --list  (iska matlab apn check kr sakte he apnne kya setup kiya git c
 SOME GIT COMMANDS
 <br>
 CLONE-- it is used to copy github repository into our local machine like pc,laptop the syntax is git clone <link>
+<br>
+cd-- it is used to change the directory like we can switch between folders and the syntax is cd foldername
 
