@@ -41,3 +41,5 @@ Commit-- it is used to save the changes to your local computer it doesnot affect
 
 <br>
 Pull-- it is used for when we to import changes from the github and then all the new changes will come here and we have to accept it using above given options and then save it and push to the github
+<br>
+Push-- it is used to push the local repo to the remote repo basically after the commiting the repo we will push it to the github so that it will reflect changes in the github that we had made in the code editor
