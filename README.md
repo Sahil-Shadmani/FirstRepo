@@ -27,7 +27,7 @@ STATUS-- it will display the status of the code using (git status) command
 <br>
 there are four types of status in git when we use git status command
 <br>
-1. Untracked-- it means when we add new file and git doesnot have track of it ,it shows U
+1. Untracked-- it means when we add new file and even we have made changes in it it doesn't show M and git doesnot have track of it ,it shows U
 2. Modified-- it means we have done some changes to the existing file which is present in the github ,it shows M
 3. Unmodified-- it means the file is unchanged
 4. Staged-- when we change anyrhing in the file or add new file and when we add these changes so it status is staged means they are ready to commit
