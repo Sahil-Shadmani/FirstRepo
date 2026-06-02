@@ -18,4 +18,20 @@ SOME GIT COMMANDS
 CLONE-- it is used to copy github repository into our local machine like pc,laptop the syntax is git clone <link>
 <br>
 cd-- it is used to change the directory like we can switch between folders and the syntax is cd foldername
+<br>
+ls-- it will list all the files in that particular folder in which we are
+<br>
+For listing all hidden files we will use (ls -a) command if we are not in powershell or we can use (dir -Force) or (Get-ChildItem -Force)
+<br>
+STATUS-- it will display the status of the code using (git status) command
+<br>
+there are four types of status in git when we use git status command
+<br>
+1. Untracked-- it means when we add new file and git doesnot have track of it ,it shows U
+<br>
+2. Modified-- it means we have done some changes to the existing file which is present in the github ,it shows M
+<br>
+3. Unmodified-- it means the file is unchanged
+<br>
+4. Staged-- when we change anyrhing in the file or add new file and when we add these changes so it status is staged means they are ready to commit
 
