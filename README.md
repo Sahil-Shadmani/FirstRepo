@@ -54,7 +54,7 @@ git remote add origin <link>-- we have to copy that new repo link and run this c
 <br><br>
 git remote -v-- it is used to verify remote repo that which file we have pushed to it 
 <br><br>
-git branch-- it is used to check in which branch are we now 
+git branch-- it is used to check in which branch are we now and also show all the branches
 <br><br>
 git branch -M newname-- it is used to change the name of the branch or rename it but we have to be present in that branch so that its name would be changed
 <br><br>
