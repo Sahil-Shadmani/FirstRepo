@@ -42,7 +42,7 @@ Commit-- it is used to save the changes to your local computer it doesnot affect
 <br>
 Pull-- it is used for when we to import changes from the github and then all the new changes will come here and we have to accept it using above given options and then save it and push to the github
 <br>
-Push-- it is used to push the local repo to the remote repo basically after the commiting the repo we will push it to the github so that it will reflect changes in the github that we had made in the code editor
+Push-- it is used to push the local repo to the remote repo basically after the commiting the repo we will push it to the github so that it will reflect changes in the github that we had made in the code editor using (git push origin main) in which origin is the nickname of our repo and main is the branch name it could be any and if we had made or write one time this command then again we dont need to type origin main because git already knows it so only write git push or pull 2nd time
 <br>
 if you want to go out of the directory you must type cd ..
 <br>
@@ -59,3 +59,4 @@ git branch-- it is used to check in which branch are we now
 git branch -M newname-- it is used to change the name of the branch or rename it but we have to be present in that branch so that its name would be changed
 <br>
 git push -u origin main-- it means we will create a shortcut so that we use only git push from next time we will give this command when we are working for a long time in the same project and pushes in the same repo than only we use this command so that git remember it -u stand for upstream 
+
