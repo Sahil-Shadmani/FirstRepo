@@ -58,5 +58,13 @@ git branch-- it is used to check in which branch are we now and also show all th
 <br><br>
 git branch -M newname-- it is used to change the name of the branch or rename it but we have to be present in that branch so that its name would be changed
 <br><br>
-git push -u origin main-- it means we will create a shortcut so that we use only git push from next time we will give this command when we are working for a long time in the same project and pushes in the same repo than only we use this command so that git remember it -u stand for upstream 
+git push -u origin main-- it means we will create a shortcut so that we use only git push from next time we will give this command when we are working for a long time in the same project and pushes in the same repo than only we use this command so that git remember it -u stand for upstream
+<br><br>
+Branch Commands-- we can create another branch here and checkout to that branch and if we change any sort of code in any file it doesnt affect out main code it will only change in that branch in which we are changing the code and then if we want to reflect that changes in the github then we run push command on that branch name not on main
+<br><br>
+1. git checkout -b newbranchname-- it is used to create new branch so that individual developer can work on their module and it will be automatically switched to the new branch that we have created using this command
+<br><br>
+2. git checkout branchname-- it is used to switch between branches by giving thier name
+<br><br>
+3. git branch -d nameofbranch-- it is used to delete the branch that we want to and make sure that we cant delete the branch in which we are currently now so we need to switch to another branch 
 
