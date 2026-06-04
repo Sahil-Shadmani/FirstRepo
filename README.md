@@ -83,4 +83,15 @@ conflict means that we have written same code in the same line or changes it in 
 Resolving Merge Conflicts-- it is an event when git is unable to understand which change it should keep when there is a conflict
 <br><br>
 2. git merge nameofanotherbranch-- when we change in both branches at the same line and then we run this command it will give conflict and we have to handle it manually because vs code gives us many options what to keep and what to not keep and then we will save and push (and we can also merge these changes in another branch by using this command)
+<br><br>
+Undoing changes-- it means to undo change that we had made in our local repo we can revert it using commands
+<br><br>
+1. staged changes-- it means those changes that are added but not committed so we can revert added changes using (git rest filename) or we can use (git reset) for all the changes in all the files that we had made to revert
+<br><br>
+2. commited changes-- it means when we added and committed those changes and afterward then we want to undo that changes then we will be using (git reset HEAD~1) this means that when we commit git saves all the commit and head is the latest commit that we had made and 1 is the step how many commits we want to go back
+<br><br>
+git log-- it is used to check all the commits that we had made
+<br><br>
+git restore filename-- it is used to get back all the lines that we have added or removed and then we used this undo commands so this commands will revert back those lines from staging area and to get back we will use this command
+<br><br>
 
