@@ -82,5 +82,5 @@ conflict means that we have written same code in the same line or changes it in 
 <br><br>
 Resolving Merge Conflicts-- it is an event when git is unable to understand which change it should keep when there is a conflict
 <br><br>
-2. git merge nameofanotherbranch-- when we change in both branches at the same line and then we run this command it will give conflict and we have to handle it manually because vs code gives us many options what to keep and what to not keep
+2. git merge nameofanotherbranch-- when we change in both branches at the same line and then we run this command it will give conflict and we have to handle it manually because vs code gives us many options what to keep and what to not keep and then we will save and push (and we can also merge these changes in another branch by using this command)
 
