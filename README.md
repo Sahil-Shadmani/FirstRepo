@@ -67,4 +67,16 @@ Branch Commands-- we can create another branch here and checkout to that branch 
 2. git checkout branchname-- it is used to switch between branches by giving thier name
 <br><br>
 3. git branch -d nameofbranch-- it is used to delete the branch that we want to and make sure that we cant delete the branch in which we are currently now so we need to switch to another branch 
+<br><br>
+Merging code commands-- it is used to merge the feature or another branch to the main or other branch that we want to
+<br><br>
+1. git diff <-branch name->-- it is used to compare the differences between two branches,files,commits and more we have to give branch name of that branch that we want to compare with the branch in which we are standing or currently now
+<br><br>
+There are two ways to merge two branches
+<br><br>
+1. using PR(pull request) in github-- pull request means that we are trying to push our branch into main and we create our pull request and send to our senior developer so now its upto his hands that he will accept or reject our request of merging in the main branch and give comments that what is mistake and what is merged
+<br><br>
+for using this we need to push our code into the github then there will be a button of compare and pull request now to accept the pr we will click on compare and pull request and then give comment if we want and then click on create pull request then github will check if there is any conflict between both branches or not and then we click on merge pull request and then click on confirm merge and then finally our branch is merged
+conflict means that we have written same code in the same line or changes it in the branch in comparision to the main branch
+<br><br>
 
