@@ -90,8 +90,20 @@ Undoing changes-- it means to undo change that we had made in our local repo we 
 <br><br>
 2. commited changes-- it means when we added and committed those changes and afterward then we want to undo that changes then we will be using (git reset HEAD~1) this means that when we commit git saves all the commit and head is the latest commit that we had made and 1 is the step how many commits we want to go back
 <br><br>
-git log-- it is used to check all the commits that we had made
+(git reset <-hashcode->)-- Now if we want to go multiple commits behind we will use this command by giving hash code and that will move our Latest HEAD~ to that commit
+<br><br>
+Now there are multiple types of reset which are
+1. (git reset --soft hashcode)-- result will be commits removed and changes are kept in staging area
+2. (git reset hashcode)-- result will be commits removed and changes kept in file but not staged
+3. (git reset --hard hashcode)-- result will be commits removed changes removed and files will be restored this is dangerous because changes are lost
+<br><br>
+git log-- it is used to check all the commits that we had made on the branch we are standing now the first commit will be the latest commit that we had made reading from sky
+<br><br>
+(git log --all)-- it is used to show all the commits of all the branches or we can use (git log --online --graph --all) command
+<br><br>
+(git log --oneline)-- it will give one line per commit
 <br><br>
 git restore filename-- it is used to get back all the lines that we have added or removed and then we used this undo commands so this commands will revert back those lines from staging area and to get back we will use this command
 <br><br>
+Fork-- it is used to copy others code,files,repos into our github and we can do this by going to their repo and their is a option called fork we will fork it into our account and we can contribute to their projects by making any useful changes in their code and then pull request to them so that they can see and accept
 
