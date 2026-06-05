@@ -130,7 +130,24 @@ git reflog-- it will recover all the commits that we had deleted using reset har
 <br><br>
 Stash commands-- stash commands are used to save temporarily work and brings them back when we need it
 <br><br>
-1. 
+1. git stash-- it is used to save our work when we have to do some other work and it hides all the changes that we had made we will now discuss some another versions of this command
+<br><br>
+a. git stash push-- same as git stash
+<br><br>
+b. (git stash push -m "message")-- it is used to save the work with message so that we can identify easily and this message will be shown on stash list command when we use it
+<br><br>
+c. git stash push filename-- it means that we can stash only one file among all the modified files
+<br><br>
+d. (git stash push -u) or (git stash push --include-untracted)-- it is used to save untracked files also
+<br><br>
+2. git stash pop-- this command will bring the unfinished work that is hidden back when we use this command
+<br><br>
+3. git stash list-- it means when we create multiple stashes and we want to view it we can use this command
+<br><br>
+4. git stash apply-- it is used to keep the stash in the list and also bring back our work and save the stash
+<br><br>
+5. git stash drop hashcode-- it is used to delete the stash using hashcode that is present in the stash list
+or we if want to delete all the stashes we will use git stash clear
 <br><br>
 Fork-- it is used to copy others code,files,repos into our github and we can do this by going to their repo and their is a option called fork we will fork it into our account and we can contribute to their projects by making any useful changes in their code and then pull request to them so that they can see and accept
 
