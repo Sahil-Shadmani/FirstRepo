@@ -93,8 +93,11 @@ Undoing changes-- it means to undo change that we had made in our local repo we 
 (git reset <-hashcode->)-- Now if we want to go multiple commits behind we will use this command by giving hash code and that will move our Latest HEAD~ to that commit
 <br><br>
 Now there are multiple types of reset which are
+<br><br>
 1. (git reset --soft hashcode)-- result will be commits removed and changes are kept in staging area
+<br><br>
 2. (git reset hashcode)-- result will be commits removed and changes kept in file but not staged
+<br><br>
 3. (git reset --hard hashcode)-- result will be commits removed changes removed and files will be restored this is dangerous because changes are lost
 <br><br>
 git log-- it is used to check all the commits that we had made on the branch we are standing now the first commit will be the latest commit that we had made reading from sky
