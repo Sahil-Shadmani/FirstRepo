@@ -116,6 +116,8 @@ Now there are multiple types of reset which are
 <br><br>
 3. (git reset --hard hashcode)-- result will be commits removed changes removed and files will be restored this is dangerous because changes are lost
 <br><br>
+4. git revert hashcodeofthatcommit-- it means when we use this command we are moving branch ahead of that commit and that commit that we want is gone but is saved but in reset we will move our branch backward and history is deleted but in this history is not deleted but is saved in another commit and we can also move back to that deleted commit(changes) 
+<br><br>
 git log-- it is used to check all the commits that we had made on the branch we are standing now the first commit will be the latest commit that we had made reading from sky
 <br><br>
 (git log --all)-- it is used to show all the commits of all the branches or we can use (git log --online --graph --all) command
