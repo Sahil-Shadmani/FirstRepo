@@ -98,6 +98,8 @@ Resolving Merge Conflicts-- it is an event when git is unable to understand whic
 <br><br>
 2. git merge nameofanotherbranch-- when we change in both branches at the same line and then we run this command it will give conflict and we have to handle it manually because vs code gives us many options what to keep and what to not keep and then we will save and push (and we can also merge these changes in another branch by using this command)
 <br><br>
+git cherry-pick hashcodeofCommit-- it is used when we want one commit of that branch into another branch so instead of merging whole branch into that branch we will take hash code of that commit and go to that branch and run this command so it will create a copy of that commit and paste to this branch in which we ran this command and make the changes that we had made in that commit it may arise conflict if there is no same line of code available (basically it is helpful for fixing a bug in another file and then run this command in main file)
+<br><br>
 Undoing changes-- it means to undo change that we had made in our local repo we can revert it using commands
 <br><br>
 1. staged changes-- it means those changes that are added but not committed so we can revert added changes using (git reset filename) or we can use (git reset) for all the changes in all the files that we had made to revert
